@@ -1,0 +1,65 @@
+ /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    
+    color: #000000;
+    padding: 20px 0;
+}
+
+.search-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 15px;
+    width: 400px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #333;
+}
+
+.search-form button {
+    padding: 15px 30px;
+    background-color: #00a6ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #00a6ff;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+

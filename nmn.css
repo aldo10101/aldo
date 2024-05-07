@@ -1,0 +1,73 @@
+/* Estilo para la barra lateral */
+.sidebar {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    border-left: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #444;
+    border-left-color: #1da1f2;
+}
+
+.sidebar ul li.active a {
+    background-color: #444;
+    border-left-color: #1da1f2;
+}
+
+/* Estilo para el texto */
+.sidebar ul li a span {
+    font-weight: bold;
+}
+
+/* Estilo para el texto de navegación activa */
+.sidebar ul li.active a span {
+    color: #1da1f2;
+}
+
+/* Estilo para el ícono de flecha */
+.sidebar ul li .arrow {
+    float: right;
+    margin-top: 5px;
+}
+
+/* Estilo para el ícono de flecha cuando se abre el menú desplegable */
+.sidebar ul li.active .arrow {
+    transform: rotate(90deg);
+}
+
+/* Estilo para dividir la barra lateral en tres secciones */
+.sidebar .section {
+    width: 33.33%;
+    float: left;
+}
+
+/* Estilo para los enlaces dentro de las secciones */
+.sidebar .section ul li {
+    margin-bottom: 0; /* Para eliminar el espacio entre los elementos */
+}

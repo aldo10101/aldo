@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('slayer_background.jpg'); /* Reemplaza 'slayer_background.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+}
+
+/* Estilos para el contenido principal */
+.mmm h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.mmm p {
+    font-family: 'Roboto', sans-serif; /* Cambio de fuente */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Cambio de color de texto */
+    margin-bottom: 10px; /* Espaciado inferior para párrafos */ 
+}
+
+.mmm p:first-child {
+    margin-top: 0;
+}
+
+/* Estilos para el slider */
+.slider-frame {
+    width: 500px;
+    height: auto;
+    margin: 50px auto; /* Alinea el slider horizontalmente */
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { margin-left: 0%; }
+    20% { margin-left: 0%; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}

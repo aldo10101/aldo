@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.logo-container img {
+    max-width: 50%; /* ajusta el tamaño de la imagen al 50% del ancho del contenedor */
+}

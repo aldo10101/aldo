@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MENU</title>
+    <link rel="stylesheet"   href="nmn.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="javascript:cambiarContenidoYPie('PAGINA1.html', 'PIEDEPAGINA.html')">Corea del Sur</a></li>
+            <li><a href="javascript:cambiarContenidoYPie('PAGINA2.html', 'PIEDEPAGINA2.html')">Madagascar</a></li>
+            <li><a href="javascript:cambiarContenidoYPie('PAGINA3.html', 'PIEDEPAGINA3.html')">Islandia</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function cambiarContenidoYPie(urlContenido, urlPie) {
+            parent.frames['contenido'].location.href = urlContenido;
+            parent.frames['pie'].location.href = urlPie;
+        }
+    </script>
+</body>
+</html>

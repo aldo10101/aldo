@@ -1,0 +1,26 @@
+/* estilos.css */
+/* Estilos para los enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Usamos flexbox para el diseño */
+    justify-content: center; 
+    
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333; /* Cambiar color del texto */
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Cambiar color de fondo */
+}
+
+li a:hover {
+    background-color: #ccc; /* Cambiar color de fondo al pasar el mouse */
+}
